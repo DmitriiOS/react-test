@@ -1,0 +1,28 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 30px 10px;
+    max-width: 300px;
+    gap: 20px;
+    border: 1px solid #0F0E0E;
+    border-radius: 5px;
+}
+
+input {
+    height: 1.5em;
+    border: none;
+    border-bottom: 1px solid #0F0E0E;
+}
+
+button {
+    height: 2.5em;
+    background: #EEEEEE;
+    border: 1px solid #0F0E0E;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #541212;
+    color: #EEEEEE;
+}
